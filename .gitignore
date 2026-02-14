@@ -9,6 +9,9 @@ dist/
 build/
 *.whl
 
+# Python version manager
+.python-version
+
 # Virtual environments
 venv/
 .venv/
