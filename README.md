@@ -5,7 +5,7 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/gdscript-code-graph.svg)](https://pypi.org/project/gdscript-code-graph/)
 [![license](https://img.shields.io/pypi/l/gdscript-code-graph)](https://github.com/MikeRoetgers/gdscript-code-graph/blob/main/LICENSE.md)
 
-CLI tool that statically analyzes GDScript (Godot Engine) projects and outputs a structured JSON graph of files, code metrics, and inter-file relationships.
+CLI tool that statically analyzes GDScript (Godot Engine) projects and outputs a structured JSON graph of files, code metrics, and inter-file relationships. Use together with [simple-code-graph-viewer](https://github.com/MikeRoetgers/simple-code-graph-viewer).
 
 ## Installation
 
