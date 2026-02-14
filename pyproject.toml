@@ -4,13 +4,30 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gdscript-code-graph"
-version = "1.0.0"
+version = "1.0.1"
+description = "CLI tool that analyzes GDScript codebases and produces a structured JSON graph of files, metrics, and relationships."
 license = "MIT"
 requires-python = ">=3.10"
+readme = "README.md"
+authors = [
+    { name = "Mike Rötgers" },
+]
+keywords = ["gdscript", "godot", "metrics", "code-analysis", "static-analysis"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Topic :: Software Development :: Quality Assurance",
+    "Intended Audience :: Developers",
+]
 dependencies = [
     "gdtoolkit>=4.0",
     "click>=8.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/MikeRoetgers/gdscript-code-graph"
+Repository = "https://github.com/MikeRoetgers/gdscript-code-graph"
+Issues = "https://github.com/MikeRoetgers/gdscript-code-graph/issues"
 
 [project.optional-dependencies]
 dev = [

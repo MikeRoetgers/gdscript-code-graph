@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from .discovery import ProjectFiles, discover_project
 from .graph import build_graph, serialize_graph
